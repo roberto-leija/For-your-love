@@ -1,0 +1,35 @@
+body, html{
+    background-image: url(images/background2.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+#card1 {
+    width: 27rem;
+    background-color: #f9e1e6; 
+    box-shadow: 0 0 15px 10px rgba(255, 107, 129, 0.7); 
+}
+
+#frase{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    color: #ff6b81;
+}
+
+.card-text {
+    white-space: pre-line;
+}
+
+#buttonsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    position: relative; 
+}
+
+#noButton {
+    transition: left 0.1s ease, top 0.1s ease; 
+}

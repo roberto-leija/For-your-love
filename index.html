@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>Para la personita de mi corazón</title>
+</head>
+<body id="a">
+    <!-- Contenedor de la tarjeta -->
+    <div id="CardContainer" class="d-flex justify-content-center align-items-center vh-100 flex-column">
+        <div id="card1" class="card">
+            <div id="frase" class="card-body text-center">
+                <p class="card-text">
+                    <b>
+                    Dear Gabriela: 
+                    ¿Will you be my valentine?
+                    <b>
+                </p>
+            </div>
+            <img src="images/firstGif.gif" class="card-img-top" alt="gif">
+        </div>
+
+        <!-- Contenedor de botones -->
+        <div id="buttonsContainer" class="d-flex justify-content-center gap-5 mt-3">
+            <button onclick="window.location.href='yes.html';" class="btn btn-success btn-lg">Yes 💚</button>
+            <button id="noButton" class="btn btn-danger btn-lg">No 💔</button>
+        </div>
+    </div>
+
+    <script src="move.js"></script>
+</body>
+</html>
